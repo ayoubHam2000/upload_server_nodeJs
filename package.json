@@ -1,0 +1,20 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "internal-ip": "^6.0.0",
+    "shelljs": "^0.8.4"
+  }
+}

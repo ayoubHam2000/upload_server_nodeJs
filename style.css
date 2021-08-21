@@ -1,0 +1,31 @@
+body{
+    background-color: #002a3f;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="file"], input[type="submit"]{
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+input[type="file"]:hover{
+    cursor:pointer;
+}
+
+table, tr, td{
+    width: 100%;
+}
+
+td{
+    color : white;
+    height: 60px;
+    background-color: #f5af09;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

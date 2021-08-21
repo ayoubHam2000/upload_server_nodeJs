@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>uploadFile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <style>
+        body{
+            background-color: #002a3f;
+            padding: 0;
+            margin: 0;
+        }
+
+        input[type="file"], input[type="submit"]{
+            opacity: 0;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        input[type="file"]:hover{
+            cursor:pointer;
+        }
+
+        table, tr, td{
+            width: 100%;
+        }
+
+        td{
+            color : white;
+            height: 60px;
+            background-color: #f5af09;
+            position: relative;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="fileupload" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td id="upload">
+                    <label> file </label>
+                    <input type="file" name="filetoupload">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>upload file</label>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
